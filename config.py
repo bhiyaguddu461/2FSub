@@ -22,17 +22,17 @@ API_HASH = os.environ.get("API_HASH", "9db23f3d7d8e7fc5144fb4dd218c8cc3")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002263836365")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6290948531"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1897636348"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8095")
 
 #Database 
 DB_URI = "mongodb+srv://zxbots:zXaBhi2315a@cluster0.lbbygpm.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "tokenbota")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "moneycase.link")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "710b7ed8fdc5f89e9036000cc10121921e7732f1")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "74c9214e4f2e41d82cd838c0fea8690aa09bb435")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
@@ -70,7 +70,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6852649461)
+ADMINS.append(1897636348)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
